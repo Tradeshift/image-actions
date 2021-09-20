@@ -1,0 +1,4 @@
+{
+  "maintainers": ["Developer productivity"],
+  "checks": ["test"]
+}

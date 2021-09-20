@@ -43,7 +43,7 @@ outputs:
 
 runs:
   using: "docker"
-  image: "docker://ghcr.io/calibreapp/image-actions/image-actions:main" 
+  image: "docker://ghcr.io/tradeshift/image-actions:master"
 
 branding:
   icon: "image"

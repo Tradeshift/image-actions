@@ -1,4 +1,4 @@
-FROM ubuntu:eoan
+FROM ubuntu:20.04
 
 ARG MOZJPEG_VERSION=3.3.1
 ARG VIPS_VERSION=8.10.1
@@ -17,6 +17,7 @@ ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 # expand
 ENV PATH=$PATH:/usr/local/bin
 ENV MANPATH=$MANPATH:/usr/local/man
+ENV DEBIAN_FRONTEND=noninteractive
 
 # basic build tools
 RUN apt-get update \
