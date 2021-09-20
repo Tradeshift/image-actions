@@ -14,7 +14,7 @@ In a few bullet points, please describe the changes this Pull Request makes. E.g
 - updates `README.md` with a better description for contributions
 
 ## Related issues
-Are there any related [issues or feature requests](https://github.com/calibreapp/image-actions/issues) this work will resolve? Please mention them here. E.g.:
+Are there any related [issues or feature requests](https://github.com/tradeshift/image-actions/issues) this work will resolve? Please mention them here. E.g.:
 
 - closes #
 

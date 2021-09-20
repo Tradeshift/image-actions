@@ -90,7 +90,7 @@ const commitOptimisedImages = async (
   const commit = await api.git.createCommit({
     owner,
     repo,
-    message: 'Optimised images with calibre/image-actions',
+    message: 'Optimised images with tradeshift/image-actions',
     tree: newTree.data.sha,
     parents: [mostRecentCommitSHA]
   })

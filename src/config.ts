@@ -48,7 +48,7 @@ const getConfig = async () => {
 
   if (ymlConfig) {
     console.error(
-      '::warning:: Using image-actions.yml for configuration is deprecated. See https://github.com/calibreapp/image-actions for the latest configuration options.'
+      '::warning:: Using image-actions.yml for configuration is deprecated. See https://github.com/tradeshift/image-actions for the latest configuration options.'
     )
   }
 
