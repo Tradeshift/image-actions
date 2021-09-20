@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: image-actions
+  description: Fork of calibreapp/image-actions to optimize images in repos
+  annotations:
+    github.com/project-slug: Tradeshift/image-actions
+    sonarqube.org/project-key: image-actions
+spec:
+  type: library
+  lifecycle: experimental
+  owner: developer-productivity
