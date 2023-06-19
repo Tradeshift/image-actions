@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: image-actions
+  description: |
+    A Github Action that automatically compresses JPEGs, PNGs and WebPs in Pull Requests.
+  annotations:
+    github.com/project-slug: Tradeshift/image-actions
+  tags:
+    - github-action
+    - nodejs
+    - fork
+spec:
+  type: library
+  owner: sre
+  lifecycle: production
